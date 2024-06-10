@@ -1,0 +1,163 @@
+.container {
+    position: relative;
+    padding: 1.5rem 5.5rem;
+    z-index: 2;
+  }
+  
+  .background-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 588px;
+    background-image: url("bg-first.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+  
+  .nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    height: 7rem;
+  }
+  
+  .logo {
+    margin-top: 1rem;
+  }
+  .nav-item {
+    height: 3.25rem;
+    padding-left: 0.5rem;
+  }
+  
+  .f-s-2 {
+    font-size: 2rem;
+  }
+  
+  .f-s-1-sm {
+    font-size: 1.25rem;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .nav-links {
+    display: flex;
+    background-color: #191818;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    height: max-content;
+  }
+  
+  .btn-primary {
+    border-radius: 10px;
+    background: linear-gradient(93.73deg, #ed0137 20.19%, #f05733 88.3%);
+    border: none;
+    padding: 0.612rem 1rem;
+  }
+  
+  .header {
+    height: 400px;
+    font-size: 2.813rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .second-section {
+    display: flex;
+    padding: 5rem 8.125rem 0;
+    background-color: #191818;
+    overflow: hidden;
+  }
+  
+  .first-container,
+  .second-container {
+    flex: 1;
+  }
+  
+  .intro {
+    font-size: 2.75rem;
+    color: #ed0137;
+    padding-bottom: 1.5rem;
+  }
+  
+  .intro-para {
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 1rem;
+  }
+  
+  .intro-para span {
+    font-size: 18px;
+    opacity: 0.6;
+  }
+  
+  .second-container img {
+    width: 60rem;
+    height: 40rem;
+    margin-top: -5rem;
+  }
+  
+  .bg-image {
+    width: 100%;
+    height: 40rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .ninja-village-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .four-ninja-container {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+  
+  .road-map {
+    font-size: 44px;
+    color: #ed0137;
+  }
+  
+  .road-map-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  
+  .footer {
+    background-color: #191818;
+    padding: 3rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .footer-link-container {
+    font-family: "Poppins", sans-serif;
+    font-size: 12.82px;
+    display: flex;
+    gap: 2rem;
+    color: #fff;
+    padding-top: 1rem;
+  }
+  
